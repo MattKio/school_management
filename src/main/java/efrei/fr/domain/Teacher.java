@@ -17,8 +17,6 @@ public class Teacher {
         this.staffNumber = staffNumber;
     }
 
-    public Teacher(){}
-
     public String getLastName() {
         return lastName;
     }
