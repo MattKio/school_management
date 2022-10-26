@@ -1,6 +1,6 @@
 package efrei.fr.domain;
 
-public class classroom {
+public class Classroom {
     private String roomNumber;
     private int size;
 
@@ -20,12 +20,12 @@ public class classroom {
         this.size = size;
     }
 
-    public classroom(String roomNumber, int size) {
+    public Classroom(String roomNumber, int size) {
         this.roomNumber = roomNumber;
         this.size = size;
     }
 
-    public classroom() {
+    public Classroom() {
     }
 
     @Override
